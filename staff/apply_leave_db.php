@@ -46,7 +46,7 @@
 			$result = mysqli_query($connection, $sql) or die(mysqli_error());
 			if(mysqli_num_rows($result) == 0 )
 			{
-				$sql3 = "INSERT INTO lms.leave_requests VALUES ('".$staff_id."', '".$leave_type."', '".$leave_date."', '".$leave_date."', '1', '".date("Y-m-d")."', '".$status."')";
+				$sql3 = "INSERT INTO lms.leave_requests VALUES ('".$staff_id."', '".$leave_type."', '".$leave_date."', '".$leave_date."', '1', '".date("Y-m-d")."', '".$status."', NULL)";
 				mysqli_query($connection, $sql3) or die(mysqli_error());
 			echo	"<script>
 					alert(\"Leave Request Submitted.\");
@@ -72,7 +72,7 @@
 			if(mysqli_num_rows($result1) == 0 && mysqli_num_rows($result2) == 0)
 			{
 				
-				$sql3 = "INSERT INTO lms.leave_requests VALUES ('".$staff_id."', '".$leave_type."', '".$start_date."', '".					$end_date."', '".$no_of_days."', '".date("Y-m-d")."', '".$status."')";
+				$sql3 = "INSERT INTO lms.leave_requests VALUES ('".$staff_id."', '".$leave_type."', '".$start_date."', '".					$end_date."', '".$no_of_days."', '".date("Y-m-d")."', '".$status."', NULL)";
 				mysqli_query($connection, $sql3) or die(mysqli_error());
 			echo	"<script>
 					alert(\"Leave Request Submitted.\");

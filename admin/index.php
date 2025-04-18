@@ -47,7 +47,7 @@
         <li><a href="search_staff_for_deletion.php">Delete Staff</a></li>
     	<li><a href="add_leave.php">Add Leave</a></li>
         <li><a href="delete_leave_type.php">Delete Leave</a></li>
-        <li><a href="search_staff_to_assign_pc.php">Program Coordinator</a></li>
+        <li><a href="search_staff_to_assign_pc.php">Assign Leave Approver</a></li>
     </ul>
   </div>
   <div id="footer">

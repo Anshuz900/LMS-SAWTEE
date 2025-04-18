@@ -60,16 +60,15 @@ body {
         <li><a href="add_staff.php">Add Staff</a></li>
         <li><a href="search_staff_for_updation.php">Update Staff</a></li>
         <li><a href="search_staff_for_deletion.php">Delete Staff</a></li>
-    	<li><a href="add_leave.php">Add Leave</a></li>
+    	  <li><a href="add_leave.php">Add Leave</a></li>
         <li><a href="delete_leave_type.php">Delete Leave</a></li>
-        <li><a href="search_staff_to_assign_pc.php">Program Coordinator</a></li>
+        <li><a href="search_staff_to_assign_pc.php">Assign Leave Approver</a></li>
     </ul>
   </div>
   <div id="footer">
     <p style="color:white;" align="center"><br />Leave Management System</p>
     <p style="color:white;" align="center"><br />&copy;2025 SAWTEE, P.O. Box: 19366, Tukucha Marg, Baluwatar, Kathmandu, Nepal</p>
-    <p style="color:white;" align="center"><br />Tel: +977 1 4544438 / 4524360, Fax: +977 1 4544570, Email: sawtee@sawtee.org</p>
-    
+    <p style="color:white;" align="center"><br />Tel: +977 1 4544438 / 4524360, Fax: +977 1 4544570, Email: sawtee@sawtee.org</p>    
   </div>
 </div>
 </body>

@@ -59,7 +59,7 @@ body {
             <li class="menu_head">Controls</li>
             <li><a href="apply_half_leave.php">Apply Half Leave</a></li>
             <li><a href="apply_leave.php">Apply Leave</a></li>
-            <li><a href="apply_leave.php">Program Attaindance</a></li>
+            <li><a href="apply_program.php">Program Attaindance</a></li>
             <li><a href="view_leave_history.php">View Leave History</a></li>
             <li><a href="view_leave_status.php">View Leave Status</a></li>
             <li><a href="program_status.php">View Program Status</a></li>

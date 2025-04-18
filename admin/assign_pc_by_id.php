@@ -21,8 +21,8 @@
 	
 	
 	// Firing query
-	$result1 = mysqli_query($sql1, $connection);
-	$result2 = mysqli_query($sql2, $connection);
+	$result1 = mysqli_query($connection, $sql1);
+	$result2 = mysqli_query($connection, $sql2);
 	/*$affected_rows = odbc_affected_rows($result);	// Obtaining the number of rows affected
 	echo $affected_rows;	*/						// Printing nuber of rows affected
 	if(mysqli_num_rows($result1) == 0)
@@ -55,7 +55,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Assign Program Coordinator</title>
+<title>Assign Leave Approver</title>
 <style type="text/css">
 body {
 	margin-left: 0px;
@@ -112,7 +112,7 @@ body {
         <li><a href="search_staff_for_deletion.php">Delete Staff</a></li>
     	<li><a href="add_leave.php">Add Leave</a></li>
         <li><a href="delete_leave_type.php">Delete Leave</a></li>
-        <li><a href="search_staff_to_assign_pc.php">Program Coordinator</a></li>
+        <li><a href="search_staff_to_assign_pc.php">Assign Leave Approver</a></li>
     </ul>
   </div>
   <div id="footer">

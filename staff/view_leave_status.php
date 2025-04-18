@@ -90,14 +90,14 @@ body {
   </div>
   <div id="side_bar">
   	<ul>
-    	<li class="menu_head">Controls</li>
-
-		<li><a href="apply_half_leave.php">Apply Half Leave</a></li>
-        <li><a href="apply_leave.php">Apply Leave</a></li>
-        <li><a href="view_leave_history.php">View Leave History</a></li>
-        <li><a href="view_leave_status.php">View Leave Status</a></li>
-        <li><a href="view_profile.php">View Profile</a></li>
-		<li><a href="update_staff.php">Change Password</a></li>
+    	    <li class="menu_head">Controls</li>
+		    <li><a href="apply_half_leave.php">Apply Half Leave</a></li>
+            <li><a href="apply_leave.php">Apply Leave</a></li>
+            <li><a href="apply_program.php">Program Attaindance</a></li>
+            <li><a href="view_leave_history.php">View Leave History</a></li>
+            <li><a href="view_leave_status.php">View Leave Status</a></li>
+            <li><a href="program_status.php">View Program Status</a></li>
+            <li><a href="view_profile.php">View Profile</a></li>				
     </ul>
   </div>
   <div id="footer">
